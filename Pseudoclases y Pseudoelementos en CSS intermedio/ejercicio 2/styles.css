@@ -1,0 +1,20 @@
+.fade-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .fade-list li {
+    padding: 10px;
+    margin: 5px;
+    background-color: #45B39D;
+    transition: opacity 0.3s ease, color 0.3s ease;
+  }
+  
+  .fade-list li:hover {
+    opacity: 0.7; 
+  }
+  
+  .fade-list li:active {
+    color: #ffcc00; 
+  }
+  
